@@ -302,3 +302,12 @@ request after a period of inactivity.
 - **Permission denied on a secret** — the compute service account needs
   the `Secret Manager Secret Accessor` role granted on that specific
   secret (see step 3).
+
+## Enhancements
+
+1. After a user enters a topic to research on, have a new agent assess 
+whether there is enough information to plan the searches. If more information 
+is needed, the agent can come back with a few clarifying questions.  There 
+can be some back and forth until the agent is confident to hand the research 
+topic (together with the clarifications) to the search planner agent.
+
