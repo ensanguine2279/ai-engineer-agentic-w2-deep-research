@@ -302,9 +302,3 @@ request after a period of inactivity.
 - **Permission denied on a secret** — the compute service account needs
   the `Secret Manager Secret Accessor` role granted on that specific
   secret (see step 3).
-
-- **gcloud crashes on Windows while deploying from inside `Documents`** —
-  Windows' `My Pictures`/`My Music`/`My Videos` junctions inside
-  `Documents` can be dangling (especially after OneDrive folder
-  redirection) and crash `gcloud`'s source upload. Either exclude them via
-  a `.gcloudignore`, or keep the project outside `Documents` entirely.
