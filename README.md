@@ -303,7 +303,7 @@ request after a period of inactivity.
   the `Secret Manager Secret Accessor` role granted on that specific
   secret (see step 3).
 
-## Enhancements
+## Future Enhancements
 
 1. After a user enters a topic to research on, have a new agent assess 
 whether there is enough information to plan the searches. If more information 
